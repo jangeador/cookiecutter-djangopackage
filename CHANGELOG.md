@@ -2,6 +2,38 @@
 All enhancements and patches to cookiecutter-django will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2016-06-08]
+### Changed
+- tox.ini file made more compact (@kelseyq)
+
+## [2016-06-04]
+### Added
+- Makefile watchme for template generation (@pydanny)
+- `post_gen_project.py` for removing example project if needed (@pydanny)
+- flake8 on generated Python code (@pydanny)
+- Issue template (@purplediane)
+
+### Changed
+- 
+
+## [2016-06-03]
+### Added
+- Views and urls based on specified model names (@leportella)
+- Tests for urls and views and correcting model.strip() in some places (@leportella)
+
+### Changed
+- Updated usage and fix requirements (@purplediane)
+- Expanded tests (@purplediane)
+
+## [2016-06-02]
+### Added
+- pytest-cookies (@pydanny)
+- tox config (@pydanny)
+
+## [2016-06-01]
+### Added
+- ability to specify django versions to run tox against rendered project (@kelseyq)
+
 ## [2016-05-16]
 ### Changed
 - Corrected datetime generation in `cookiecutter.json` (@kelseyq)
